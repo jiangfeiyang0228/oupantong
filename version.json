@@ -1,7 +1,7 @@
 {
-  "versionCode": 29,
-  "versionName": "1.6.6",
+  "versionCode": 30,
+  "versionName": "1.6.7",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/oupantong/main/releases/oupantong.apk",
-  "sha256": "1cadbea10f53776a12a996f3a61c0dd7b255e00c08eed5d14cb16fc1ed7d21a3",
-  "notes": "v1.6.6：历史日期改回站点「足球日」全量口径。schedule.aspx?f=ftN 的 ShowBf() 渲染该文件全部 A[] 行（菜单主日白天+次日凌晨），旧版按自然日二次过滤把 ft6 488→201、ft7 223→118，且砍掉竞彩/北单密集的凌晨段。现 footballDay() 全量保留、计数同步；竞彩/北单列按 SetLevel() 源码对齐为 col32/col30，col29 为大小球盘口；历史分支冷启动也会发布日期池（此前只剩实时/自选）。实时 bf1 口径不变。"
+  "sha256": "517d63a6a27dedb532d5ee8dc26b6c39b40ba5434f631c933e057ea7ab6025c8",
+  "notes": "v1.6.7：修复超出 7 天窗口的自定义历史日（如 10-12）。score.aspx?date= 返回的就是站点足球日全量，但凌晨行 col10 写成次日日期，旧版按 matchDate 二次过滤把 155 场凌晨段砍光（299→144、末尾只到 23:45）。现历史兜底也走 footballDay() 全量；该源 28 列不含竞彩/北单标记，如实提示而非假装 0 是有比赛。日期弹窗未统计的日期改显示「点选加载」，本次加载结果回填真实场次。11-05/11-06 站点菜单日维持 488/223 全量、四视图筛选正常。"
 }
