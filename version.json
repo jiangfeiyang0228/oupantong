@@ -1,0 +1,7 @@
+{
+  "versionCode": 18,
+  "versionName": "1.5.5",
+  "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/oupantong/main/releases/oupantong.apk",
+  "sha256": "8f53e56e9e0aba730e6b6100692b43b1a0b92f3ce54bfe914d4cc6a00e3eac71",
+  "notes": "纠正竞彩/北单列映射；日期选择与比赛列表改按站点 schedule 菜单的真实日期。"
+}
