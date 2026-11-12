@@ -1,7 +1,7 @@
 {
-  "versionCode": 19,
-  "versionName": "1.5.6",
+  "versionCode": 20,
+  "versionName": "1.5.7",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/oupantong/main/releases/oupantong.apk",
-  "sha256": "1f9fde30463f55d532a3675c9860f641caa16c4554f976c935262a79851a0478",
-  "notes": "v1.5.6：详情三盘表头对齐；赛果改带色徽标（胜/平/负更醒目）；相似终盘统计改为只算当前下方列表显示的公司；盘口公司选择弹窗主流置顶。"
+  "sha256": "45045e7a18b79c64dcad1d870ebc1c994158b98fe822f93de6132cca51c304dc",
+  "notes": "v1.5.7：详情页重设计。比分头收紧、三盘口表头胶囊化、三列数值统一居中；相似终盘分析卡（三段比例条 + 场均三柱 + 三色图例）；范围 chip（全部/主流/命中/无样本/自选）；排序改 4 Tab + 更多；状态条压成一行；公司选择列表去掉 cid 后缀。"
 }
