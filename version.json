@@ -1,7 +1,7 @@
 {
-  "versionCode": 26,
-  "versionName": "1.6.3",
+  "versionCode": 27,
+  "versionName": "1.6.4",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/oupantong/main/releases/oupantong.apk",
-  "sha256": "9b5a456e1a09eeada68463a296da321b3a6d620c7f1662670bab6d5fdedb72d4",
-  "notes": "v1.6.3：网络故障诊断。断网/DNS/超时不再误报「站点被拦」，详情页显示具体失败原因。"
+  "sha256": "3049355714089446497735da9eb0b8467dbf2d0df3bc6f350d23cd8a5d1eb6ca",
+  "notes": "v1.6.4：相似度刻度改为 100×(1−d)。原 100×(1−d/2) 把分数压在 90+，现按三路归一概率合计差线性映射，分数分布拉开。"
 }
