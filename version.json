@@ -1,7 +1,7 @@
 {
-  "versionCode": 23,
-  "versionName": "1.6.0",
+  "versionCode": 24,
+  "versionName": "1.6.1",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/oupantong/main/releases/oupantong.apk",
-  "sha256": "39902e4f55a398e0a3037eab1571162a6d27a3ed88193992bd2b9167b5bbce59",
-  "notes": "v1.6.0：终盘相似度改为去水归一概率。初盘仍精确相等；本场终盘与同初赔历史终盘各自归一后按概率 L1 取 Top-1；相似度=100×(1−d/2)；原赔率 L1 保留为对照列。"
+  "sha256": "02914ff7d7d6ae0eb77d741a98a49e16d92980d182b21d3bdd02524155d2afc4",
+  "notes": "v1.6.1：修复比赛列表按日期显示。实时列表改为直接展示 bf1 全量（含跨日比赛，与 2in1.aspx 网页一致），只有显式选日期才按日过滤。"
 }
