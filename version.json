@@ -1,7 +1,7 @@
 {
-  "versionCode": 24,
-  "versionName": "1.6.1",
+  "versionCode": 25,
+  "versionName": "1.6.2",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/oupantong/main/releases/oupantong.apk",
-  "sha256": "02914ff7d7d6ae0eb77d741a98a49e16d92980d182b21d3bdd02524155d2afc4",
-  "notes": "v1.6.1：修复比赛列表按日期显示。实时列表改为直接展示 bf1 全量（含跨日比赛，与 2in1.aspx 网页一致），只有显式选日期才按日过滤。"
+  "sha256": "1d8545f30bc86c8d82096ccc9b7abc7be5ad6dded2650ec8c885142aff474a52",
+  "notes": "v1.6.2：修复竞彩/北单全空。ft1 列契约改为 col29=竞彩 / col31=北单；实时列表改用 Schedule_0_3/0_4 的 ID 集合打标（与 2in1.aspx 筛选一致）。"
 }
