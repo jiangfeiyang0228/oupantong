@@ -1,7 +1,7 @@
 {
-  "versionCode": 18,
-  "versionName": "1.5.5",
+  "versionCode": 19,
+  "versionName": "1.5.6",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/oupantong/main/releases/oupantong.apk",
-  "sha256": "8f53e56e9e0aba730e6b6100692b43b1a0b92f3ce54bfe914d4cc6a00e3eac71",
-  "notes": "纠正竞彩/北单列映射；日期选择与比赛列表改按站点 schedule 菜单的真实日期。"
+  "sha256": "1f9fde30463f55d532a3675c9860f641caa16c4554f976c935262a79851a0478",
+  "notes": "v1.5.6：详情三盘表头对齐；赛果改带色徽标（胜/平/负更醒目）；相似终盘统计改为只算当前下方列表显示的公司；盘口公司选择弹窗主流置顶。"
 }
