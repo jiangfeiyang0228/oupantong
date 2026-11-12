@@ -1,7 +1,7 @@
 {
-  "versionCode": 21,
-  "versionName": "1.5.8",
+  "versionCode": 22,
+  "versionName": "1.5.9",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/oupantong/main/releases/oupantong.apk",
-  "sha256": "abce3654bab7c79b92850e1465693befc5acd684373880e86fcd1f9560f5905c",
-  "notes": "v1.5.8：主流与交易所徽标。站点头部「主」= 蓝色实心，交易所 = 紫色 E；详情公司行与盘口公司选择弹窗同步显示，选择器顶部显示主流/交易所家数。"
+  "sha256": "a510d19e8594672f47d1db9a4419b779b3036d5a0a675801a7d3862088e1eeca",
+  "notes": "v1.5.9：交易所公司排到主流下面。详情列表按 主流 → 交易所 → 非主流 三级分组；盘口公司选择弹窗同步三级排序。"
 }
