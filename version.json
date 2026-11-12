@@ -1,7 +1,7 @@
 {
-  "versionCode": 22,
-  "versionName": "1.5.9",
+  "versionCode": 23,
+  "versionName": "1.6.0",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/oupantong/main/releases/oupantong.apk",
-  "sha256": "a510d19e8594672f47d1db9a4419b779b3036d5a0a675801a7d3862088e1eeca",
-  "notes": "v1.5.9：交易所公司排到主流下面。详情列表按 主流 → 交易所 → 非主流 三级分组；盘口公司选择弹窗同步三级排序。"
+  "sha256": "39902e4f55a398e0a3037eab1571162a6d27a3ed88193992bd2b9167b5bbce59",
+  "notes": "v1.6.0：终盘相似度改为去水归一概率。初盘仍精确相等；本场终盘与同初赔历史终盘各自归一后按概率 L1 取 Top-1；相似度=100×(1−d/2)；原赔率 L1 保留为对照列。"
 }
