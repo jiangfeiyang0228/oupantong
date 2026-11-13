@@ -1,7 +1,7 @@
 {
-  "versionCode": 33,
-  "versionName": "1.7.0",
+  "versionCode": 34,
+  "versionName": "1.7.1",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/oupantong/main/releases/oupantong.apk",
-  "sha256": "ad4e3dff7730cc86f93020edf1ffe800c8e8c2010f76475affa207d581e19679",
-  "notes": "v1.7.0（Product Design 审查后收敛比分展示）：旧的赛果卡把同一个「0-5 客胜」写了三遍（大字比分 + 「比分 0-5 · 客胜」行 + 序列 #1 客胜 0-5），整卡泛红、徽标/比分/序列全红无主次。现改为：①中性白底卡片 + 左侧 3dp 结果色条（沿用联赛色条视觉语言），整卡不再泛红；②比分是唯一大字(TS_DISPLAY)，胜平负只在左上小徽标出现一次，删掉重复的比分文字行；③「近 N 场」序列改为轻量描边 chip「其余相似 #2 0-7 #3 2-3」，不再重复胜平负、不再重复 Top-1；④时间/联赛弱灰一行，背景信息不抢视觉。沿用现有 Theme token，零新增颜色。"
+  "sha256": "7231508f3ed3cc16cdbadfb2a2235103a62206669bd64596da2254ff6cb1a17e",
+  "notes": "v1.7.1：详情页相似比赛区改成两行紧凑比赛行（联赛·时间·完 / 主队 比分 客队），N 场全部平级、白底不泛红、细分隔线；接入比赛事件 /detail/{mid}cn.html，解析 data-kind 行的红牌/点球/乌龙/两黄变红/射失点球，按主客侧贴在队名旁做 Theme 色小角标（红/点/乌），抓不到或无事件页如实不显示。事件只对当前可见 Top-N 去重并发抓取、24h 缓存、异步回填不阻塞首屏。让球/半场/角球同赔源无字段，本轮不做。"
 }
