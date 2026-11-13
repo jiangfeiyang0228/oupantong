@@ -1,7 +1,7 @@
 {
-  "versionCode": 39,
-  "versionName": "1.7.6",
+  "versionCode": 40,
+  "versionName": "1.7.7",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/oupantong/main/releases/oupantong.apk",
-  "sha256": "222171acf06cc7622c8e65ba17ba78e7a7ff5f21b7ac9f136eb87f7e62fa8dc8",
-  "notes": "v1.7.6：详情页第一行改成与第二行同一套三段轴——左段(联赛+时间) | 中段(完，56dp 与比分区同宽同列) | 右段(让— 半— + 相似度)。实测「完」与比分同为 304-416、中心 360，精确压在比分正上方；时间完整显示 2022-10-09 20:15；联赛限宽省略以优先保证时间完整。"
+  "sha256": "3b0de06e3322ad4d2da7d82bbb9b636e53bc49d8179da291ec4e45dcb99dc68b",
+  "notes": "v1.7.7：恢复比赛事件角标。详情页每场历史比赛按 /detail/{mid}cn.html 解析红牌(2)/点球(7)/乌龙(8)/两黄变红(9)/射失点球(13)，同侧同类合并成「红2/点/乌」小色块贴在队名旁（主队在右、客队在左）。只对当前可见 Top-N 命中去重后异步抓取，8 线程 + 24h 缓存 + 45s 超时降级，不阻塞首屏；抓不到不显示，不编数。"
 }
