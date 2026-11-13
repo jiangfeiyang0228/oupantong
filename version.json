@@ -1,7 +1,7 @@
 {
-  "versionCode": 41,
-  "versionName": "1.7.8",
+  "versionCode": 42,
+  "versionName": "1.7.9",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/oupantong/main/releases/oupantong.apk",
-  "sha256": "c700592754ac075b9e5519320039d9e85e517a9dca082edd1370cbea15f884bd",
-  "notes": "v1.7.8：比赛事件标识改为两队各在一侧——主队角标贴队名左侧（最外）、队名右对齐贴比分；客队队名左对齐贴比分、角标贴队名右侧（最外）。中间只留比分，不再挤在中间。标识按站点语义分色：红牌红、两黄变红橙、乌龙红、点球绿、入球灰，逐个渲染不合并。"
+  "sha256": "21c523835d85d2dacea4571fcc1679d87cae455202c4e209ef82c29a6dcaa0d7",
+  "notes": "v1.7.9：事件标识改用站点原生图标（不再用文字）。内置 6 个 PNG：入球/红牌/黄牌/点球/乌龙/两黄变红（源 /images/bf_img3/{1,2,3,7,8,9}.png），12dp 贴队名外侧——主队在左、客队在右，中间只留比分。"
 }
