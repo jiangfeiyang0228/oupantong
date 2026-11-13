@@ -1,7 +1,7 @@
 {
-  "versionCode": 40,
-  "versionName": "1.7.7",
+  "versionCode": 41,
+  "versionName": "1.7.8",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/oupantong/main/releases/oupantong.apk",
-  "sha256": "3b0de06e3322ad4d2da7d82bbb9b636e53bc49d8179da291ec4e45dcb99dc68b",
-  "notes": "v1.7.7：恢复比赛事件角标。详情页每场历史比赛按 /detail/{mid}cn.html 解析红牌(2)/点球(7)/乌龙(8)/两黄变红(9)/射失点球(13)，同侧同类合并成「红2/点/乌」小色块贴在队名旁（主队在右、客队在左）。只对当前可见 Top-N 命中去重后异步抓取，8 线程 + 24h 缓存 + 45s 超时降级，不阻塞首屏；抓不到不显示，不编数。"
+  "sha256": "c700592754ac075b9e5519320039d9e85e517a9dca082edd1370cbea15f884bd",
+  "notes": "v1.7.8：比赛事件标识改为两队各在一侧——主队角标贴队名左侧（最外）、队名右对齐贴比分；客队队名左对齐贴比分、角标贴队名右侧（最外）。中间只留比分，不再挤在中间。标识按站点语义分色：红牌红、两黄变红橙、乌龙红、点球绿、入球灰，逐个渲染不合并。"
 }
