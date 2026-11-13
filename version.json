@@ -1,7 +1,7 @@
 {
-  "versionCode": 42,
-  "versionName": "1.7.9",
+  "versionCode": 43,
+  "versionName": "1.7.10",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/oupantong/main/releases/oupantong.apk",
-  "sha256": "21c523835d85d2dacea4571fcc1679d87cae455202c4e209ef82c29a6dcaa0d7",
-  "notes": "v1.7.9：事件标识改用站点原生图标（不再用文字）。内置 6 个 PNG：入球/红牌/黄牌/点球/乌龙/两黄变红（源 /images/bf_img3/{1,2,3,7,8,9}.png），12dp 贴队名外侧——主队在左、客队在右，中间只留比分。"
+  "sha256": "958969a7764d4ce42c705bc9677d11486e1a9bafdd910d81bb34abd605a014fb",
+  "notes": "v1.7.10：胜平负一眼可辨——胜方队名染绿(#14804A)、负方染红(#C0392B)、平局两侧中性。主胜=主队绿/客队红，客胜=主队红/客队绿。新增 homeResult/awayResult 纯语义判断(0中性/1胜/2负)与 resultTint 颜色映射，ScoreLayoutTest 增 4 项断言。"
 }
