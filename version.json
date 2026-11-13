@@ -1,7 +1,7 @@
 {
-  "versionCode": 36,
-  "versionName": "1.7.3",
+  "versionCode": 37,
+  "versionName": "1.7.4",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/oupantong/main/releases/oupantong.apk",
-  "sha256": "f20a05102ff8a31d215478024f59e9974bf6279dbb09b218f3d3a1eeabe91e96",
-  "notes": "v1.7.3：修正比赛行第二行对齐——主队/比分/客队三段全部居中，比分几何中心恒等于屏幕中心，不再因短队名而视觉偏移；新增 rowAlignments() 与 MatchRowStyleTest 断言钉死，防回归。其余沿用 v1.7.2：列表页与详情页两行紧凑比赛行、比分配红、让球拆盘、半场比分、详情页让—/半—、移除事件角标。"
+  "sha256": "0c7471c34e11852d1b51a64feb6ebf78a6a161a81c2250458425a47b81b448f6",
+  "notes": "v1.7.4：比赛行改为固定列宽表格。第一行联赛70/时间44/状态18/让球48/半场46dp、列间距6dp，每行同列 x 起点完全一致（实测 40/192/292/340/448 px，不再随联赛名长短漂移）；第二行主队右贴比分、比分固定56dp居中、客队左贴比分（主队右缘304、比分304-416、客队416，完全对称）。列表页与详情页共用同一套 ROW_COLS。"
 }
