@@ -1,7 +1,7 @@
 {
-  "versionCode": 46,
-  "versionName": "1.7.13",
+  "versionCode": 48,
+  "versionName": "1.7.15",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/oupantong/main/releases/oupantong.apk",
-  "sha256": "b85d73158b0dfcbba9de4d5282efd3f4ff4fd0621460c591f1a45a4f56272c7e",
-  "notes": "v1.7.13：比分颜色跟随胜方——主胜红(#C0392B)、客胜绿(#14804A)、平局中性灰(#5B6675)，与队名配色一致。像素实测：3-0/4-0=(192,57,43) 红；0-2/2-3/1-2=(20,128,74) 绿；1-1/2-2=(91,102,117) 灰。"
+  "sha256": "dc660749d73f347e2667247173c89ed0ca2a447d0fbe4f826103745df7c3c628",
+  "notes": "v1.7.15：列表已完场沉底（进行中→未开赛→异常→已完场）；进行中不再只显示「中」，改按站点 2in1score.js→setMatchTime() 公式显示真实分钟（上半场 31'、补时 45+5、下半场 90+3、中场/加时/点球），并加 30 秒心跳让分钟自己走（真机实测 31'→32'）。"
 }
