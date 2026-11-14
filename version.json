@@ -1,7 +1,7 @@
 {
-  "versionCode": 50,
-  "versionName": "1.7.17",
+  "versionCode": 51,
+  "versionName": "1.7.18",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/oupantong/main/releases/oupantong.apk",
-  "sha256": "140d8b85959830d5a588144f4522cae3bec987a2dd94362a78bf8668d3a16c5c",
-  "notes": "v1.7.17：三盘口赔率格子可直接点选下注（无需二级页）——点欧赔主/平/客、亚盘主/客、大小球大/小即按当前本金落单，即时 Toast 回执；本金 -10/+10 步进；注单带场次 id 跨场不串结算；相似终盘常见比分改表格（比分/场次/占比，前 5 行）。"
+  "sha256": "27f47a33d0641b34b4fe83fc4743776f3c44cd64ebe8b4cb43a53c66dd3e66f3",
+  "notes": "v1.7.18：赔率格子常态加浅描边（有按钮感）；比赛列表每行新增注单徽标——亚盘按站点习惯显示成主-1.5（球半）+欧赔主胜＋N，带盘口注单优先、最多两条；返回列表自动刷新注单。"
 }
