@@ -1,7 +1,7 @@
 {
-  "versionCode": 54,
-  "versionName": "1.7.21",
+  "versionCode": 55,
+  "versionName": "1.7.22",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/oupantong/main/releases/oupantong.apk",
-  "sha256": "923eb060f272ea799616f280552e9271a5cf5dd783343f7edfe31675ada5ba40",
-  "notes": "v1.7.21：修复详情页历史比赛「让球 / 半场」显示为「—」。让球改从 odds/match 页的让球指首行取（一球=让1，受平/半=受0.25，平手=0）；半场从 score.aspx 的 col15/16 按比赛日补齐（含跨日前一天兜底）。补齐改为后台异步、只补前 24 场、逐天释放内存；列表先出，不再卡白屏、不再被系统杀进程。"
+  "sha256": "30ce3d7dbeb74e70176efb3d91d1de992f1d649a292e87f8759ca21e5dba96e7",
+  "notes": "v1.7.22：修正让球取值（优先 36* 行，36* 空盘再退到有其他公司盘口的那行，不再盲取首行——首行常是 Crow*）；补齐并发化：半场按天 4 线程、让球 8 线程并抓并只用 score.aspx 缺值的场次，首批 60 场约 7 秒内可见（此前串行 26s+）。"
 }
