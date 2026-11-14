@@ -1,7 +1,7 @@
 {
-  "versionCode": 52,
-  "versionName": "1.7.19",
+  "versionCode": 54,
+  "versionName": "1.7.21",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/oupantong/main/releases/oupantong.apk",
-  "sha256": "569cec7db1a1544bb48f4e18783000b1baee3876964086b8cc8bbc04d93971ac",
-  "notes": "v1.7.19：列表页注单徽标去掉「注」前缀、去掉 ＋N 计数，改为居中显示；同一选项重复下注合并为一条；欧赔直接显示 主胜/平/客胜，不再带数字后缀。"
+  "sha256": "923eb060f272ea799616f280552e9271a5cf5dd783343f7edfe31675ada5ba40",
+  "notes": "v1.7.21：修复详情页历史比赛「让球 / 半场」显示为「—」。让球改从 odds/match 页的让球指首行取（一球=让1，受平/半=受0.25，平手=0）；半场从 score.aspx 的 col15/16 按比赛日补齐（含跨日前一天兜底）。补齐改为后台异步、只补前 24 场、逐天释放内存；列表先出，不再卡白屏、不再被系统杀进程。"
 }
