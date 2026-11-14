@@ -1,7 +1,7 @@
 {
-  "versionCode": 55,
-  "versionName": "1.7.22",
+  "versionCode": 56,
+  "versionName": "1.7.23",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/oupantong/main/releases/oupantong.apk",
-  "sha256": "30ce3d7dbeb74e70176efb3d91d1de992f1d649a292e87f8759ca21e5dba96e7",
-  "notes": "v1.7.22：修正让球取值（优先 36* 行，36* 空盘再退到有其他公司盘口的那行，不再盲取首行——首行常是 Crow*）；补齐并发化：半场按天 4 线程、让球 8 线程并抓并只用 score.aspx 缺值的场次，首批 60 场约 7 秒内可见（此前串行 26s+）。"
+  "sha256": "ea559baccc40fa27902491fcd75b7de2045c6b73d8af8161ee493772cf6de1a6",
+  "notes": "v1.7.23：注单支持勾选删除与按日期删除。每行一个 checkbox（点整行即可勾选），底部三个按钮：删除所选 / 按日期删除 / 全部清空；按日期删除会列出「日期 · N 单」并二次确认。每行同时显示下注日期（MM-dd）。"
 }
