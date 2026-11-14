@@ -1,7 +1,7 @@
 {
-  "versionCode": 48,
-  "versionName": "1.7.15",
+  "versionCode": 50,
+  "versionName": "1.7.17",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/oupantong/main/releases/oupantong.apk",
-  "sha256": "dc660749d73f347e2667247173c89ed0ca2a447d0fbe4f826103745df7c3c628",
-  "notes": "v1.7.15：列表已完场沉底（进行中→未开赛→异常→已完场）；进行中不再只显示「中」，改按站点 2in1score.js→setMatchTime() 公式显示真实分钟（上半场 31'、补时 45+5、下半场 90+3、中场/加时/点球），并加 30 秒心跳让分钟自己走（真机实测 31'→32'）。"
+  "sha256": "140d8b85959830d5a588144f4522cae3bec987a2dd94362a78bf8668d3a16c5c",
+  "notes": "v1.7.17：三盘口赔率格子可直接点选下注（无需二级页）——点欧赔主/平/客、亚盘主/客、大小球大/小即按当前本金落单，即时 Toast 回执；本金 -10/+10 步进；注单带场次 id 跨场不串结算；相似终盘常见比分改表格（比分/场次/占比，前 5 行）。"
 }
