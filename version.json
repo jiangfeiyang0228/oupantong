@@ -1,7 +1,7 @@
 {
-  "versionCode": 51,
-  "versionName": "1.7.18",
+  "versionCode": 52,
+  "versionName": "1.7.19",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/oupantong/main/releases/oupantong.apk",
-  "sha256": "27f47a33d0641b34b4fe83fc4743776f3c44cd64ebe8b4cb43a53c66dd3e66f3",
-  "notes": "v1.7.18：赔率格子常态加浅描边（有按钮感）；比赛列表每行新增注单徽标——亚盘按站点习惯显示成主-1.5（球半）+欧赔主胜＋N，带盘口注单优先、最多两条；返回列表自动刷新注单。"
+  "sha256": "569cec7db1a1544bb48f4e18783000b1baee3876964086b8cc8bbc04d93971ac",
+  "notes": "v1.7.19：列表页注单徽标去掉「注」前缀、去掉 ＋N 计数，改为居中显示；同一选项重复下注合并为一条；欧赔直接显示 主胜/平/客胜，不再带数字后缀。"
 }
