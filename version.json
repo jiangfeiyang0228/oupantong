@@ -1,7 +1,7 @@
 {
-  "versionCode": 56,
-  "versionName": "1.7.23",
+  "versionCode": 57,
+  "versionName": "1.7.24",
   "apk": "https://raw.githubusercontent.com/jiangfeiyang0228/oupantong/main/releases/oupantong.apk",
-  "sha256": "ea559baccc40fa27902491fcd75b7de2045c6b73d8af8161ee493772cf6de1a6",
-  "notes": "v1.7.23：注单支持勾选删除与按日期删除。每行一个 checkbox（点整行即可勾选），底部三个按钮：删除所选 / 按日期删除 / 全部清空；按日期删除会列出「日期 · N 单」并二次确认。每行同时显示下注日期（MM-dd）。"
+  "sha256": "bf66e03256d1e3446d295fb747954f48cd548ef73cff32db21a7548c26fc4b74",
+  "notes": "v1.7.24：同赔抓取与统计改为跟随当前范围——选「自选 4 家」就只抓 4 家、只算 4 家（此前默认全量 358 家）；候选池/命中数/相似终盘统计都按当前范围重算。切回「全部」时按需补抓剩余公司，已缓存的 cid 不重复请求。"
 }
